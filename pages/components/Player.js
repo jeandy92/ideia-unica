@@ -1,7 +1,7 @@
 import React, {useState, useRef, useEffect} from 'react'
 import PlayerControls from './PlayerControls';
 import PlayerDetails from './PlayerDetails';
-import styles from './index.module.css'
+import styles from "./css/index.module.css"
 
 function Player(props) {
     const audioEl = useRef(null);

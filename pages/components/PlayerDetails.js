@@ -1,5 +1,5 @@
 import react from 'react'
-import styles from './index.module.css'
+import styles from "./css/index.module.css"
 function PlayerDetails(props) {
     return (
         <div className={styles.c_player_details}>

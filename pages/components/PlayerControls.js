@@ -1,7 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPlay,faPause,faForward,faBackward} from '@fortawesome/free-solid-svg-icons'
-import styles from './index.module.css'
+import styles from "./css/index.module.css"
 
 
 function PlayerControls(props){

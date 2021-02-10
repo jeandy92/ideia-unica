@@ -3,11 +3,7 @@ import { Component, userState, useState } from 'react';
 import { Button } from './components/Button';
 import { Audio } from './components/Audio';
 import Player from './components/Player'
-import styles from './components/index.module.css'
-
-
-
-
+import styles from "./components/css/index.module.css"
 
 function Home() {
     const [songs, setSongs] = useState([

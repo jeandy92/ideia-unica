@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import Player from './components/Player';
-import styles from './index.module.css'
+import styles from ".components/css/index.module.css"
 
 function App() {
   const [songs] = useState([
