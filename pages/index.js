@@ -3,20 +3,13 @@ import { Component, userState, useState } from 'react';
 import Player from './components/Player'
 import styles from "./components/css/index.module.css"
 
-function Home() {
+function App() {
     const [songs, setSongs] = useState([
         { 
          title: "Palmeiras nao tem mundial",
          artist: "Guilherme", 
-         img_src: "./elfo_negro.png", 
-         src: "./zoa_matheus.mpeg" 
-        },
-        { 
-         title: "Gustavo Lima",
-         artist: "Guilherme", 
-         img_src: "./elfo_negro.png",  
-         src: "./zoa_matheus.mpeg" 
-        },
+         src: "./zoa_matheus.mpeg"  
+        }
     ]);
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
     const [nextSongIndex, setNextSongIndex] = useState(0);
@@ -43,4 +36,4 @@ function Home() {
 
 }
 
-export default Home
+export default App

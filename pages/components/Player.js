@@ -47,11 +47,11 @@ function Player(props) {
             <h4>Playing now</h4>
             <PlayerDetails song={props.songs[props.currentSongIndex]} />
             <PlayerControls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
-            
+            <p>Next up: <span>{props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span></p>            
             <p>By Sid</p>
         </div>
     )
 }
 
-/*<p>Next up: <span>{props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span></p>*/
+
 export default Player;
