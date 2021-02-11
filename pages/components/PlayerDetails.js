@@ -8,8 +8,8 @@ function PlayerDetails(props) {
             <div className={styles.details_img}>
                 <img src="./elfo_negro.png"/>
             </div>
-            <h3 className={styles.details_title}>{props.song.title}</h3>
-            <h4 className={styles.details_artist}>{props.song.artist}</h4>
+            <h3 className={styles.details_title}>Palmeiras nao tem Mundial</h3>
+            <h4 className={styles.details_artist}>Guilherme</h4>
         </div>
     )
 
