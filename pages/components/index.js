@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from '../App';
 import './components/css/index.module.css';
-import App from './pages/App';
+
 
 function Index(){
 return(<div> <React.StrictMode>
