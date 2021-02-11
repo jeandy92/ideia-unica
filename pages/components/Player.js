@@ -40,7 +40,7 @@ function Player(props) {
             });
         }
     }
-
+ 
     return (
         <div className={styles.c_player}>
             <audio src={props.songs[props.currentSongIndex].src} ref={audioEl}></audio>

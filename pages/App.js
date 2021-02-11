@@ -8,7 +8,7 @@ function App() {
         { 
          title: "Palmeiras nao tem mundial",
          artist: "Guilherme", 
-         src: "./zoa_matheus.mpeg"  
+         src: "./audio_djavan.mp3"  
         }
     ]);
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
