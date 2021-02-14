@@ -48,7 +48,7 @@ function Player(props) {
     console.log(audioEl)*/
     return (
         <div className={styles.c_player}>
-            <audio src={'./zoa_matheus.mpeg'} ref={audioEl}></audio>
+            <audio src={'./audio.mp3'} ref={audioEl}></audio>
             <h4>Playing now</h4>
             <PlayerDetails song={props.songs[props.currentSongIndex]} />
             <PlayerControls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
