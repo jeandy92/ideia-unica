@@ -1,7 +1,7 @@
 import { useEffect} from 'react'
 import { Component, userState, useState } from 'react';
-import Player from './components/Player'
-import styles from "./components/css/index.module.css"
+import Player from '../components/Player'
+import styles from "../components/css/index.module.css"
 
 function App() {
     const [songs, setSongs] = useState([
@@ -23,7 +23,7 @@ function App() {
           }
         });
       }, [currentSongIndex]);
-      console.log(useEffect)
+      
       /*console.log(currentSongIndex)
       console.log(setCurrentSongIndex)
       console.log(nextSongIndex)

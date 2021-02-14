@@ -50,8 +50,8 @@ function Player(props) {
         <div className={styles.c_player}>
             <audio src={'./audio_djavan.mp3'} ref={audioEl}></audio>
             <h4>Playing now</h4>
-            <PlayerDetails song={'0'} />
-            <PlayerControls isPlaying={false} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
+            <PlayerDetails song={props.songs[props.currentSongIndex]} />
+            <PlayerControls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
             <p>Next up: <span>{props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span></p>            
             <p>By Sid</p>
         </div>
