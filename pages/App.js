@@ -14,7 +14,7 @@ function App() {
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
     const [nextSongIndex, setNextSongIndex] = useState(0);
 
-    useEffect(() => {
+   useEffect(() => {
         setNextSongIndex(() => {
           if (currentSongIndex + 1 > songs.length - 1) {
             return 0;
@@ -23,6 +23,11 @@ function App() {
           }
         });
       }, [currentSongIndex]);
+      console.log(useEffect)
+      /*console.log(currentSongIndex)
+      console.log(setCurrentSongIndex)
+      console.log(nextSongIndex)
+      console.log(setNextSongIndex)*/
 
     return <div className = {styles.App}>
         <Player
